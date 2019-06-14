@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.is-loading {
+  background: gold;
+}
+
+
+/* Table FLexbox */
+.container {
+  width: 400px;
+  padding: 1em;
+  font-family: arial;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+
+  border-bottom: 1px solid black;
+  border: 1px solid black;
+  border-top: 0px solid black;
+}
+.roof {
+  border-top: 1px solid black;
+}
+.item {
+  padding: 1em;
+}
+
+.left {
+  border-right: 1px solid black;
+}
+.right {
+  border-left: 0px solid black;
+}
